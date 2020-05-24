@@ -1,7 +1,7 @@
 
-# 
+#
 # Usage: rustc [OPTIONS] INPUT
-# 
+#
 # Options:
 #     -h --help           Display this message
 #     --cfg SPEC          Configure the compilation environment
@@ -38,13 +38,13 @@
 #                         Set a codegen option
 #     -V --version        Print version info and exit
 #     -v --verbose        Use verbose output
-# 
+#
 # Additional help:
 #     -C help             Print codegen options
 #     -W help             Print 'lint' options and default settings
 #     -Z help             Print internal options for debugging rustc
 #     --help -v           Print the full set of options rustc accepts
-# 
+#
 
 # <TARGET> <TARGET_BASE> <OBJECT> <OBJECTS> <LINK_LIBRARIES> <FLAGS> <LINK_FLAGS> <SOURCE> <SOURCES>
 
@@ -103,4 +103,3 @@ mark_as_advanced(
 	CMAKE_Rust_FLAGS_RELWITHDEBINFO)
 
 set(CMAKE_Rust_INFORMATION_LOADED 1)
-
