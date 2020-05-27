@@ -9,4 +9,5 @@ include(CMakeCargo)
 
 add_subdirectory(hello_world)
 add_subdirectory(crates)
-
+# to compile Rust program
+add_subdirectory(hello)
